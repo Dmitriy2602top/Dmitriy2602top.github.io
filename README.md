@@ -1,16 +1,253 @@
-### Hi there 👋
+Юрьев Дмитрий
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my first project</title>
+  </head>
+  <body>
+    <header class="heading">
+      <nav>
+        <div class="name">Андрей Браун</div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Обо мне</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">КЕЙСЫ</a></li>
+            <li><a href="#">ПРАЙС</a></li>
+            <li><a href="#">ОТЗЫВЫ</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-<!--
-**Dmitriy2602top/Dmitriy2602top** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <div class="main">
+      <div class="title_container">
+        <h1>Привет <br />Я Андрей Браун</h1>
+        <h4>веб-разработчик</h4>
+        <input type="submit" value="Обо мне" />
+        <input type="submit" value="Мои работы" />
+      </div>
+    </div>
 
-Here are some ideas to get you started:
+    <div class="container_biography">
+      <div class="biography">
+        <h3>Обо мне</h3>
+        <p><img src="#" alt="line" /></p>
+        <p><img src="#" alt="braun" /></p>
+        <div class="rezume">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex iusto
+            voluptatem quae nesciunt aliquid non, eveniet porro, quidem
+            assumenda eius libero dignissimos magni eos expedita adipisci dolor
+            dolore, magnam numquam!
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+            laboriosam magni delectus neque commodi voluptate sit, beatae aut
+            ut? Repellat ut ducimus omnis! Laudantium, libero nesciunt
+            distinctio enim magni harum.
+          </p>
+        </div>
+        <div class="rezume_loading">
+          <p><img src="#" alt="loading" /></p>
+          <input type="submit" value="Скачать резюме" />
+        </div>
+      </div>
+    </div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <div class="my_skills_container">
+      <div class="i_mogu">
+        <h2>ЧТО Я УМЕЮ</h2>
+        <p><img src="#" alt="line" /></p>
+      </div>
+      <div class="my_skills">
+        <div class="my_skill">
+          <p><img src="#" alt="" /></p>
+          <h4>Веб-дизайн</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam,
+            eos.
+          </p>
+        </div>
+      </div>
+
+      <div class="my_skill">
+        <p><img src="#" alt="" /></p>
+        <h4>Разработка</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam,
+          eos.
+        </p>
+      </div>
+
+      <div class="my_skill">
+        <p><img src="#" alt="" /></p>
+        <h4>CEO-оптимизация</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam,
+          eos.
+        </p>
+      </div>
+
+      <div class="my_skill">
+        <p><img src="#" alt="" /></p>
+        <h4>Маркетинг</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam,
+          eos.
+        </p>
+      </div>
+    </div>
+    <div class="cases">
+      <div class="case">
+        <h2>КЕЙСЫ</h2>
+        <p><img src="#" alt="line" /></p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt ratione
+          consectetur officia natus! Tenetur aliquam
+        </p>
+      </div>
+      <div class="slayder"><form name="slayder" id="recruting"></form></div>
+      <div class="visitka">
+        <h3>CLIENT:</h3>
+        <p>Какая-то компания</p>
+        <h3>WEBSITE:</h3>
+        <p>здесь должна быть ссылка</p>
+        <h3>Название проекта</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sed
+          tempore repellat accusantium totam illum quas tempora porro, odit eum.
+          Suscipit error necessitatibus veniam dignissimos consequuntur cumque
+          quibusdam incidunt dolores.
+        </p>
+        <input type="submit" value="VISIT LIVE SITE" />
+      </div>
+    </div>
+
+    <div class="stoimost_container">
+      <h2>Расчет стоимости</h2>
+      <div class="kriteriy_stoimosti">
+        <h3>ТИП САЙТА</h3>
+        <select name="spisok" id="type">
+          <option value="lorem1">Выберите пункт</option>
+          <option value="lorem2">Lorem.1</option>
+          <option value="lorem3">Lorem.2</option>
+        </select>
+      </div>
+      <div class="kriteriy_stoimosti">
+        <h3>ДИЗАЙН</h3>
+        <select name="spisok" id="type">
+          <option value="lorem1">Выберите пункт</option>
+          <option value="lorem2">Lorem.1</option>
+          <option value="lorem3">Lorem.2</option>
+        </select>
+      </div>
+      <div class="kriteriy_stoimosti">
+        <h3>АДАПТИНОВСТЬ</h3>
+        <select name="spisok" id="type">
+          <option value="lorem1">Выберите пункт</option>
+          <option value="lorem2">Lorem.1</option>
+          <option value="lorem3">Lorem.2</option>
+        </select>
+      </div>
+      <p>Сроки</p>
+      <p>Стоимость</p>
+    </div>
+
+    <div class="statics">
+      <h2>НЕМНОГО СТАТИКИ</h2>
+      <p><img src="#" alt="line" /></p>
+      <div class="statistica">
+        <p><img src="#" alt="item_smile" /></p>
+        <p><b>120</b></p>
+        <p>Счастливых клиентов</p>
+      </div>
+      <div class="statistica">
+        <p><img src="#" alt="</>" /></p>
+        <p><b>4600</b></p>
+        <p>Часов работы</p>
+      </div>
+      <div class="statistica">
+        <p><img src="#" alt="galochka" /></p>
+        <p><b>340</b></p>
+        <p>Проектов завершено</p>
+      </div>
+      <div class="statistica">
+        <p><img src="#" alt="winner" /></p>
+        <p><b>23</b></p>
+        <p>Награды получено</p>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <h2>ОТЗЫВЫ</h2>
+      <p><img src="#" alt="line" /></p>
+      <form action="clients">
+        <p><img src="#" alt="client" /></p>
+      </form>
+    </div>
+
+    <div class="my_contakts">
+      <h2>МОИ КОНТАКТЫ</h2>
+      <p><img src="#" alt="line" /></p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <div class="contakts_container">
+        <div class="contakt">
+          <p><img src="#" alt="gps" /></p>
+          <p>Санкт-Петербург<br />Невский проспект 11</p>
+        </div>
+        <div class="contakt">
+          <p><img src="#" alt="mail" /></p>
+          <p>dimmka26022005@mail.ru</p>
+        </div>
+        <div class="contakt">
+          <p><img src="#" alt="phone" /></p>
+          <p>+79916555649</p>
+        </div>
+        <h3>Оставьте мне сообщение</h3>
+      </div>
+      <form action="sms">
+        <input type="text" placeholder="Имя" />
+        <input type="tell" placeholder="Email" />
+        <textarea
+          name="massage"
+          id="sms"
+          cols="30"
+          rows="10"
+          placeholder="Сообщение"
+        ></textarea>
+        <input type="reset" value="Отправить" />
+      </form>
+      <div class="contakt_footer">
+        <div class="massage_item">
+          <p><img src="#" alt="facebook" /></p>
+        </div>
+        <div class="massage_item">
+          <p><img src="#" alt="twitter" /></p>
+        </div>
+        <div class="massage_item">
+          <p><img src="#" alt="safari" /></p>
+        </div>
+        <div class="massage_item">
+          <p><img src="#" alt="cat" /></p>
+        </div>
+        <div class="massage_item">
+          <p><img src="#" alt="instagram" /></p>
+        </div>
+        <div class="massage_item">
+          <p><img src="#" alt="in" /></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <form action="maps"></form>
+    </div>
+
+    <footer>Copyright @ Андрей Браун</footer>
+  </body>
+</html>
