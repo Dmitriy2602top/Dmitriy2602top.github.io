@@ -1,0 +1,468 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: normal;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+header {
+  background-color: #2a3e51;
+  width: 100%;
+  height: 61px;
+  background-attachment: local;
+}
+
+.name {
+  float: left;
+  padding-left: 250px;
+  line-height: 61px;
+  color: white;
+  font-size: 23px;
+}
+
+.menu {
+  padding-left: 550px;
+}
+.menu li a {
+  float: left;
+  line-height: 61px;
+  font-size: 17px;
+  margin-right: 40px;
+  text-align: right;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main {
+  width: 100%;
+  height: calc(100% - 60px);
+  background: url(../img/Парень\ 1.png) 95% 100% / auto 85% no-repeat,
+    url(../img/фон\ 1.png) center/cover no-repeat;
+}
+.title_container {
+  text-align: center;
+  padding-top: 150px;
+  display: block;
+  padding-right: 270px;
+}
+.title_container h1 {
+  line-height: 80px;
+  font-size: 79px;
+  font-family: Franklin Gothic Medium;
+}
+.title_container h4 {
+  font-size: 21px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.title_container input {
+  width: 105px;
+  height: 42px;
+  font-size: 16px;
+  border: #6d7682 solid 2px;
+  color: #6d7682;
+  border-radius: 5px;
+  margin: 30px 13px 0px 20px;
+  cursor: pointer;
+}
+
+.container_biography {
+  height: 694px;
+  text-align: center;
+}
+.biography h3 {
+  font-size: 34px;
+  padding-top: 79px;
+  text-align: center;
+}
+.line {
+  width: 72px;
+  height: 4px;
+  margin-top: 10px;
+}
+.braun {
+  margin-top: 50px;
+}
+.about_me1 {
+  width: 763px;
+  margin: 0 auto;
+  font-size: 17px;
+  margin-top: 38px;
+}
+.about_me2 {
+  width: 763px;
+  margin: 0 auto;
+  font-size: 17px;
+  margin-top: 40px;
+}
+.rezume_loading {
+  border: solid 2px #6f707e;
+  border-radius: 8%;
+  height: 35px;
+  width: 157px;
+  padding-top: 5px;
+  margin: 35px auto;
+}
+.loading_img {
+  margin: auto;
+  float: left;
+  height: 19px;
+  width: 19px;
+  padding-top: 2px;
+  padding-left: 5px;
+}
+.rezume_loading input {
+  font-size: 17px;
+  color: #6f707e;
+  cursor: pointer;
+}
+
+.my_skills_container {
+  height: 523px;
+  width: 100%;
+  background: url(../img/что\ я\ умею\ фон.png) center/cover no-repeat;
+}
+.i_mogu {
+  text-align: center;
+  font-size: 34px;
+  font-family: Franklin Gothic Medium;
+  font-weight: bold;
+  padding-top: 56px;
+}
+.my_skill {
+  margin-top: 113px;
+  float: left;
+  width: 220px;
+  margin-right: 55px;
+}
+.my_skills {
+  width: 663px;
+  margin-left: 150px;
+}
+.item_img {
+  display: block;
+  text-align: center;
+}
+.my_skill h4 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 19px;
+  color: #cf7600;
+}
+.my_skill p {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 17px;
+}
+.case {
+  text-align: center;
+}
+.case h2 {
+  font-size: 34px;
+  font-family: "Franklin Gothic Medium";
+  margin-top: 101px;
+  margin-bottom: 20px;
+}
+.about_case {
+  padding-top: 63px;
+  margin-bottom: 38px;
+  font-size: 17px;
+}
+.obertka_case {
+  width: 1169px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.slayder {
+  text-align: center;
+}
+
+.left_visitka h3 {
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.left_visitka p {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+.left_visitka {
+  padding-bottom: 10px;
+  float: left;
+  margin-right: 100px;
+}
+.visit_site input {
+  width: 200px;
+  background: #63b5ae;
+  color: white;
+  font-size: 21px;
+  height: 44px;
+  border-radius: 7%;
+  cursor: pointer;
+}
+.name_project {
+  width: 100%;
+}
+.name_project h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 38px;
+}
+.name_project p {
+  font-size: 21px;
+  padding-bottom: 20px;
+}
+.clear {
+  clear: left;
+}
+
+.stoimost_container h2 {
+  margin-top: 145px;
+  font-size: 46px;
+  text-align: center;
+  font-weight: 400;
+  font-family: Franklin Gothic Medium;
+  margin-bottom: 65px;
+}
+.stoimost_container {
+  width: 891px;
+  margin: 0 auto;
+}
+.kriteriy_stoimosti h3 {
+  font-size: 29px;
+  font-family: Franklin Gothic Medium;
+  margin-bottom: 23px;
+}
+.kriteriy_stoimosti select {
+  height: 57px;
+  width: 100%;
+  background: #eeeeee;
+  margin-bottom: 37px;
+  font-size: 17px;
+  color: #737373;
+}
+.stoimost_container p {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.statics {
+  background: url(../img/фон\ статистика.png) center/cover no-repeat;
+  height: 580px;
+  margin-top: 150px;
+}
+.statics h2 {
+  text-align: center;
+  font-weight: 400;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  font-family: Franklin Gothic Medium;
+  font-size: 34px;
+  color: #323e4f;
+}
+.linia {
+  text-align: center;
+}
+.statistica {
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+.statica_items {
+  margin-top: 74px;
+  width: 1100px;
+  margin: 74px auto;
+  padding-bottom: 111px;
+}
+.statistica img {
+  margin-bottom: 32px;
+}
+.number {
+  font-size: 37.5px;
+  font-family: Franklin Gothic Medium;
+  margin-bottom: 32px;
+  color: #323e4f;
+}
+.opisanie {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: Franklin Gothic Medium;
+  color: #323e4f;
+}
+.reviews {
+  text-align: center;
+}
+.reviews h2 {
+  font-size: 34px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.foto_reviews {
+  margin-top: 55px;
+  margin-bottom: 48px;
+}
+.reviews_massage {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 17px;
+  margin-bottom: 27px;
+}
+.person {
+  font-size: 17px;
+  margin-top: 27px;
+}
+.reviews input {
+  margin-top: 50px;
+  margin-left: 5px;
+  background: #cf7600;
+}
+
+.my_contakts {
+  background: url(../img/фон\ 3.png) center/cover no-repeat;
+  color: white;
+  text-align: center;
+  height: 928px;
+  font-size: 17px;
+  font-family: Franklin Gothic Medium;
+}
+.my_contakts h2 {
+  font-size: 34px;
+  padding-top: 101px;
+}
+.my_contakts img {
+  margin-bottom: 43px;
+}
+.contakt {
+  margin-left: 35px;
+  margin-right: 35px;
+  float: left;
+  margin-top: 50px;
+}
+.contakts_container {
+  width: 680px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.obertka_contakt {
+  width: 732px;
+  margin: 0 auto;
+}
+.textarea_massage {
+  width: 100%;
+  text-indent: 7px;
+  height: 94px; background-color: #EEEEEED9;
+}
+.massage_1 {
+  width: 352px;
+  height: 34px;
+  margin-right: 28px;
+  float: left; background-color: #EEEEEED9;
+  text-indent: 7px;
+}
+.massage_2 {
+  width: 352px;
+  height: 34px;
+  margin-bottom: 15px;
+  text-indent: 7px; background-color: #EEEEEED9;
+}
+.give_massage { 
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding-top: 200px;
+}
+.send_reset {
+  background: rgba(0, 0, 0, 0.0001);
+  height: 46px;
+  width: 125px;
+  box-sizing: border-box;
+  margin-top: 28px;
+  font-size: 21px;
+  border: #f9faff solid 2px;
+  border-radius: 8%;
+  color: #f9faff;
+  cursor: pointer;
+}
+.card{width: 100%; height: 356px; background: url(../img/Карта.png) center/ 100% 356px no-repeat;}
+footer{background: #293D4F; height: 90px; color: white;  }
+footer p{display: block; padding:auto; line-height: 90px; text-align: center;}

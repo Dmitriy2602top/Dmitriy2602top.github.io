@@ -1,0 +1,17 @@
+.rim {
+  font-weight: 200;
+  font-size: 20px;
+}
+.tipical {
+  text-align: left;
+  text-indent: 100px;
+  letter-spacing: normal;
+  line-height: normal;
+  font-size: 17px;
+  white-space: normal;
+}
+.text{border: 1px solid;
+border-radius: 50%;
+height: 250px;
+width: 250px;
+overflow:hidden;}
