@@ -32,3 +32,7 @@
 label{border: 2px solid black; margin: 500px; padding: 15px; display: inline;}
 label:hover{background-color: aqua; color: red;}
 label:active{background-color: rgb(79, 8, 212); color: rgb(21, 255, 0); transform: scale(2, 1);}
+.proverka_adaptyve{margin:auto;width: 75%; border: solid 2px aqua; text-align: center;}
+@media (max-width:500px){
+.proverka_adaptyve{height: 500px; margin-top: 1000;
+}}
